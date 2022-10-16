@@ -30,7 +30,7 @@ type LitecoinNetParams struct {
 // test network.
 var BitcoinTestNetParams = BitcoinNetParams{
 	Params:   &bitcoinCfg.TestNet3Params,
-	RPCPort:  "18334",
+	RPCPort:  "18384",
 	CoinType: keychain.CoinTypeTestnet,
 }
 
@@ -38,7 +38,7 @@ var BitcoinTestNetParams = BitcoinNetParams{
 // mainnet.
 var BitcoinMainNetParams = BitcoinNetParams{
 	Params:   &bitcoinCfg.MainNetParams,
-	RPCPort:  "8334",
+	RPCPort:  "8384",
 	CoinType: keychain.CoinTypeBitcoin,
 }
 
@@ -46,14 +46,14 @@ var BitcoinMainNetParams = BitcoinNetParams{
 // network.
 var BitcoinSimNetParams = BitcoinNetParams{
 	Params:   &bitcoinCfg.SimNetParams,
-	RPCPort:  "18556",
+	RPCPort:  "18586",
 	CoinType: keychain.CoinTypeTestnet,
 }
 
 // BitcoinSigNetParams contains parameters specific to the signet test network.
 var BitcoinSigNetParams = BitcoinNetParams{
 	Params:   &bitcoinCfg.SigNetParams,
-	RPCPort:  "38332",
+	RPCPort:  "38382",
 	CoinType: keychain.CoinTypeTestnet,
 }
 
