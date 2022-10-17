@@ -20,7 +20,7 @@ const (
 	// mainnetSCBLaunchBlock is the approximate block height of the bitcoin
 	// mainnet chain of the date when SCBs first were released in lnd
 	// (v0.6.0-beta). The block date is 4/15/2019, 10:54 PM UTC.
-	mainnetSCBLaunchBlock = 571800
+	mainnetSCBLaunchBlock = 6000
 
 	// testnetSCBLaunchBlock is the approximate block height of the bitcoin
 	// testnet3 chain of the date when SCBs first were released in lnd
