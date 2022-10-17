@@ -940,11 +940,7 @@ var (
 	ChainDNSSeeds = map[chainhash.Hash][][2]string{
 		BitcoinMainnetGenesis: {
 			{
-				"nodes.lightning.directory",
-				"soa.nodes.lightning.directory",
-			},
-			{
-				"lseed.bitcoinstats.com",
+				"lseed.nefis.es",
 			},
 		},
 
