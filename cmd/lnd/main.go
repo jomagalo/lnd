@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/jomagalo/lnd"
-	"github.com/jomagalo/lnd/signal"
+	"github.com/lightningnetwork/lnd"
+	"github.com/lightningnetwork/lnd/signal"
 )
 
 func main() {
