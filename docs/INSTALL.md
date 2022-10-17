@@ -210,7 +210,7 @@ release](https://github.com/lightningnetwork/lnd/releases). Assuming the name
 of the release is `v0.x.x`, then you can compile this release from source with
 a small modification to the above command: 
 ```shell
-⛰  git clone https://github.com/lightningnetwork/lnd
+⛰  git clone https://github.com/jomagalo/lnd
 ⛰  cd lnd
 ⛰  git checkout v0.x.x
 ⛰  make install
