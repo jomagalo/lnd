@@ -1,9 +1,9 @@
-PKG := github.com/jomagalo/lnd
-ESCPKG := github.com\/jomagalo\/lnd
+PKG := github.com/lightningnetwork/lnd
+ESCPKG := github.com\/lightningnetwork\/lnd
 MOBILE_PKG := $(PKG)/mobile
 TOOLS_DIR := tools
 
-BTCD_PKG := github.com/jomagalo/btcd
+BTCD_PKG := github.com/btcsuite/btcd
 GOACC_PKG := github.com/ory/go-acc
 GOIMPORTS_PKG := github.com/rinchsan/gosimports/cmd/gosimports
 GOFUZZ_BUILD_PKG := github.com/dvyukov/go-fuzz/go-fuzz-build
