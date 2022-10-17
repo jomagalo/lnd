@@ -539,7 +539,7 @@ document](wallet.md).
 `lnd`'s authentication system is called **macaroons**, which are decentralized
 bearer credentials allowing for delegation, attenuation, and other cool
 features. You can learn more about them in Alex Akselrod's [writeup on
-Github](https://github.com/lightningnetwork/lnd/issues/20).
+Github](https://github.com/jomagalo/lnd/issues/20).
 
 Running `lncli create` to create a wallet, will by default generate 
 the `admin.macaroon`, `read_only.macaroon`, and `macaroons.db` 
