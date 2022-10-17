@@ -23,7 +23,7 @@ within it.  In the current state `lnd` is capable of:
 * Sending outgoing [onion-encrypted payments](https://github.com/lightningnetwork/lightning-onion)
 through the network.
 * Updating advertised fee schedules.
-* Automatic channel management ([`autopilot`](https://github.com/lightningnetwork/lnd/tree/master/autopilot)).
+* Automatic channel management ([`autopilot`](https://github.com/jomagalo/lnd/tree/master/autopilot)).
 
 ## Lightning Network Specification Compliance
 `lnd` _fully_ conforms to the [Lightning Network specification
