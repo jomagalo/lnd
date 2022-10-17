@@ -46,7 +46,7 @@ development) builds.
 
 Downloading and installing an official release binary is recommended for use on
 mainnet.
-[Visit the release page on GitHub](https://github.com/lightningnetwork/lnd/releases)
+[Visit the release page on GitHub](https://github.com/jomagalo/lnd/releases)
 and select the latest version that does not have the "Pre-release" label set
 (unless you explicitly want to help test a Release Candidate, RC).
 
@@ -69,7 +69,7 @@ To build a specific git tag of `lnd`, simply run the following steps (assuming
 `v0.x.y-beta` is the tagged version to build):
 
 ```shell
-⛰  git clone https://github.com/lightningnetwork/lnd
+⛰  git clone https://github.com/jomagalo/lnd
 ⛰  cd lnd
 ⛰  git checkout v0.x.y-beta
 ⛰  make docker-release tag=v0.x.y-beta
@@ -88,7 +88,7 @@ recommended for mainnet. The `master` branch can at times be unstable and
 running your node off of it can prevent it to go back to a previous, stable
 version if there are database migrations present.
 
-In order to work with [`lnd`](https://github.com/lightningnetwork/lnd), the 
+In order to work with [`lnd`](https://github.com/jomagalo/lnd), the 
 following build dependencies are required:
 
 ### Installing Go
@@ -198,7 +198,7 @@ documentation for [building mobile libraries](../mobile) to learn more.
 With the preliminary steps completed, to install `lnd`, `lncli`, and all
 related dependencies run the following commands:
 ```shell
-⛰  git clone https://github.com/lightningnetwork/lnd
+⛰  git clone https://github.com/jomagalo/lnd
 ⛰  cd lnd
 ⛰  make install
 ```
@@ -270,7 +270,7 @@ make install tags="signrpc walletrpc routerrpc invoicesrpc"
 To update your version of `lnd` to the latest version run the following
 commands:
 ```shell
-⛰  cd $GOPATH/src/github.com/lightningnetwork/lnd
+⛰  cd $GOPATH/src/github.com/jomagalo/lnd
 ⛰  git pull
 ⛰  make clean && make && make install
 ```
@@ -280,7 +280,7 @@ On FreeBSD, use gmake instead of make.
 Alternatively, if one doesn't wish to use `make`, then the `go` commands can be
 used directly:
 ```shell
-⛰  cd $GOPATH/src/github.com/lightningnetwork/lnd
+⛰  cd $GOPATH/src/github.com/jomagalo/lnd
 ⛰  git pull
 ⛰  go install -v ./...
 ```
@@ -450,7 +450,7 @@ To configure your bitcoind backend for use with lnd, first complete and verify
 the following:
 
 - Since `lnd` uses
-  [ZeroMQ](https://github.com/bitcoin/bitcoin/blob/master/doc/zmq.md) to
+  [ZeroMQ](https://github.com/jomagalo/bitcoin/blob/master/doc/zmq.md) to
   interface with `bitcoind`, *your `bitcoind` installation must be compiled with
   ZMQ*. Note that if you installed `bitcoind` from source and ZMQ was not present, 
   then ZMQ support will be disabled, and `lnd` will quit on a `connection refused` error. 
@@ -608,7 +608,7 @@ Notice the `[Bitcoin]` section. This section houses the parameters for the
 Bitcoin chain. `lnd` also supports Litecoin testnet4 (but not both BTC and LTC
 at the same time), so when working with Litecoin be sure to set to parameters
 for Litecoin accordingly. See a more detailed sample config file available
-[here](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf)
+[here](https://github.com/jomagalo/lnd/blob/master/sample-lnd.conf)
 and explore the other sections for node configuration, including `[Btcd]`,
 `[Bitcoind]`, `[Neutrino]`, `[Ltcd]`, and `[Litecoind]` depending on which
 chain and node type you're using.
