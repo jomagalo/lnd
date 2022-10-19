@@ -1,4 +1,4 @@
-## Lightning Network Daemon for bitcoin+
+## Lightning Network Daemon for bitcoin II
 
 [![Build Status](https://img.shields.io/travis/lightningnetwork/lnd.svg)](https://travis-ci.org/lightningnetwork/lnd)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/lightningnetwork/lnd/blob/master/LICENSE)
