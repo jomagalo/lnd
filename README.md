@@ -93,5 +93,5 @@ preferably encrypted using our designated PGP key
 [here](https://gist.githubusercontent.com/Roasbeef/6fb5b52886183239e4aa558f83d085d3/raw/5fa96010af201628bcfa61e9309d9b13d23d220f/security@lightning.engineering).
 
 ## Further reading
-* [Step-by-step send payment guide with docker](https://github.com/lightningnetwork/lnd/tree/master/docker)
-* [Contribution guide](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md)
+* [Step-by-step send payment guide with docker](https://github.com/jomagalo/lnd/tree/master/docker)
+* [Contribution guide](https://github.com/jomagalo/lnd/blob/master/docs/code_contribution_guidelines.md)
